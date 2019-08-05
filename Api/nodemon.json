@@ -1,0 +1,18 @@
+{
+    "restartable": "rs",
+    "ignore": [
+      ".git",
+      "node_modules/**/node_modules",
+      "dist"
+    ],
+    "verbose": true,
+    "execMap": {
+      "js": "npm run build && node dist/server.js"
+    },
+    "events": { },
+    "watch": ["src/"],
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "ext": "ts,js,json"
+  }

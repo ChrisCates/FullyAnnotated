@@ -1,0 +1,12 @@
+node_modules
+dist
+
+upload/*
+!upload/.gitkeep
+
+*.log
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
